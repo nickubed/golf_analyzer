@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 from datetime import datetime
 
 API_URL = 'https://goweather.herokuapp.com/weather/'
-city = 'seattle'
+city = 'portland'
 
 r = requests.get(API_URL + city)
 response = r.json()
